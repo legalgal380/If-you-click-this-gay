@@ -1,0 +1,336 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+-- Instances: 29 | Scripts: 2 | Modules: 0 | Tags: 1
+local CollectionService = game:GetService("CollectionService");
+local G2L = {};
+
+-- Players.ronia_oys.PlayerGui.ScreenGui
+G2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+G2L["ScreenGui_1"]["ResetOnSpawn"] = false;
+
+-- Tags
+CollectionService:AddTag(G2L["ScreenGui_1"], [[main]]);
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame
+G2L["Frame_2"] = Instance.new("Frame", G2L["ScreenGui_1"]);
+G2L["Frame_2"]["BorderSizePixel"] = 0;
+G2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Frame_2"]["Size"] = UDim2.new(0, 606, 0, 212);
+G2L["Frame_2"]["Position"] = UDim2.new(0, 116, 0, 42);
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.UICorner
+G2L["UICorner_3"] = Instance.new("UICorner", G2L["Frame_2"]);
+
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.TopBar
+G2L["TopBar_4"] = Instance.new("Frame", G2L["Frame_2"]);
+G2L["TopBar_4"]["BorderSizePixel"] = 0;
+G2L["TopBar_4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["TopBar_4"]["Size"] = UDim2.new(0, 606, 0, 36);
+G2L["TopBar_4"]["Name"] = [[TopBar]];
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.TopBar.Close
+G2L["Close_5"] = Instance.new("TextButton", G2L["TopBar_4"]);
+G2L["Close_5"]["TextWrapped"] = true;
+G2L["Close_5"]["BorderSizePixel"] = 0;
+G2L["Close_5"]["TextScaled"] = true;
+G2L["Close_5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Close_5"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["Close_5"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Close_5"]["BackgroundTransparency"] = 1;
+G2L["Close_5"]["Size"] = UDim2.new(0, 90, 0, 22);
+G2L["Close_5"]["Text"] = [[X]];
+G2L["Close_5"]["Name"] = [[Close]];
+G2L["Close_5"]["Position"] = UDim2.new(0, 494, 0, 10);
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.TopBar.Close.LocalScript
+G2L["LocalScript_6"] = Instance.new("LocalScript", G2L["Close_5"]);
+
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.TopBar.UICorner
+G2L["UICorner_7"] = Instance.new("UICorner", G2L["TopBar_4"]);
+
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.TopBar.Decorative
+G2L["Decorative_8"] = Instance.new("Frame", G2L["TopBar_4"]);
+G2L["Decorative_8"]["BorderSizePixel"] = 0;
+G2L["Decorative_8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Decorative_8"]["Size"] = UDim2.new(0, 606, 0, 20);
+G2L["Decorative_8"]["Position"] = UDim2.new(0, 0, 0, 30);
+G2L["Decorative_8"]["Name"] = [[Decorative]];
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.TopBar.Decorative.UIGradient
+G2L["UIGradient_9"] = Instance.new("UIGradient", G2L["Decorative_8"]);
+G2L["UIGradient_9"]["Rotation"] = 90;
+G2L["UIGradient_9"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(101, 51, 161)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(101, 51, 161))};
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.TopBar.SubTitle
+G2L["SubTitle_a"] = Instance.new("TextLabel", G2L["TopBar_4"]);
+G2L["SubTitle_a"]["TextWrapped"] = true;
+G2L["SubTitle_a"]["BorderSizePixel"] = 0;
+G2L["SubTitle_a"]["TextScaled"] = true;
+G2L["SubTitle_a"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["SubTitle_a"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["SubTitle_a"]["TextColor3"] = Color3.fromRGB(218, 200, 255);
+G2L["SubTitle_a"]["BackgroundTransparency"] = 1;
+G2L["SubTitle_a"]["Size"] = UDim2.new(0, 434, 0, 16);
+G2L["SubTitle_a"]["Text"] = [[FX]];
+G2L["SubTitle_a"]["Name"] = [[SubTitle]];
+G2L["SubTitle_a"]["Position"] = UDim2.new(0, -24, 0, 22);
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.TopBar.UIGradient
+G2L["UIGradient_b"] = Instance.new("UIGradient", G2L["TopBar_4"]);
+G2L["UIGradient_b"]["Rotation"] = 90;
+G2L["UIGradient_b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(101, 51, 161)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(101, 51, 161))};
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.TopBar.Minimize
+G2L["Minimize_c"] = Instance.new("TextButton", G2L["TopBar_4"]);
+G2L["Minimize_c"]["TextWrapped"] = true;
+G2L["Minimize_c"]["BorderSizePixel"] = 0;
+G2L["Minimize_c"]["TextScaled"] = true;
+G2L["Minimize_c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Minimize_c"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["Minimize_c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Minimize_c"]["BackgroundTransparency"] = 1;
+G2L["Minimize_c"]["Size"] = UDim2.new(0, 90, 0, 22);
+G2L["Minimize_c"]["Text"] = [[-]];
+G2L["Minimize_c"]["Name"] = [[Minimize]];
+G2L["Minimize_c"]["Position"] = UDim2.new(0, 432, 0, 8);
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.TopBar.Minimize.LocalScript
+G2L["LocalScript_d"] = Instance.new("LocalScript", G2L["Minimize_c"]);
+
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.TopBar.Title
+G2L["Title_e"] = Instance.new("TextLabel", G2L["TopBar_4"]);
+G2L["Title_e"]["TextWrapped"] = true;
+G2L["Title_e"]["BorderSizePixel"] = 0;
+G2L["Title_e"]["TextScaled"] = true;
+G2L["Title_e"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["Title_e"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Title_e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Title_e"]["BackgroundTransparency"] = 1;
+G2L["Title_e"]["Size"] = UDim2.new(0, 506, 0, 30);
+G2L["Title_e"]["Text"] = [[ADMIN]];
+G2L["Title_e"]["Name"] = [[Title]];
+G2L["Title_e"]["Position"] = UDim2.new(0, -114, 0, 10);
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.UIGradient
+G2L["UIGradient_f"] = Instance.new("UIGradient", G2L["Frame_2"]);
+G2L["UIGradient_f"]["Rotation"] = 90;
+G2L["UIGradient_f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(51, 51, 51)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(51, 51, 51))};
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.Content 
+G2L["Content _10"] = Instance.new("Frame", G2L["Frame_2"]);
+G2L["Content _10"]["BorderSizePixel"] = 0;
+G2L["Content _10"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Content _10"]["Size"] = UDim2.new(0, 606, 0, 160);
+G2L["Content _10"]["Position"] = UDim2.new(0, 0, 0, 52);
+G2L["Content _10"]["Name"] = [[Content ]];
+G2L["Content _10"]["BackgroundTransparency"] = 1;
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.Content .Section1
+G2L["Section1_11"] = Instance.new("TextLabel", G2L["Content _10"]);
+G2L["Section1_11"]["TextWrapped"] = true;
+G2L["Section1_11"]["BorderSizePixel"] = 0;
+G2L["Section1_11"]["TextScaled"] = true;
+G2L["Section1_11"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["Section1_11"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Section1_11"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Section1_11"]["BackgroundTransparency"] = 1;
+G2L["Section1_11"]["Size"] = UDim2.new(0, 506, 0, 20);
+G2L["Section1_11"]["Text"] = [[Comandos]];
+G2L["Section1_11"]["Name"] = [[Section1]];
+G2L["Section1_11"]["Position"] = UDim2.new(0, 6, 0, 8);
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.Content .Section1.Frame
+G2L["Frame_12"] = Instance.new("Frame", G2L["Section1_11"]);
+G2L["Frame_12"]["BorderSizePixel"] = 0;
+G2L["Frame_12"]["BackgroundColor3"] = Color3.fromRGB(184, 184, 184);
+G2L["Frame_12"]["Size"] = UDim2.new(0, 580, 0, 112);
+G2L["Frame_12"]["Position"] = UDim2.new(0, 2, 0, 22);
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.Content .Section1.Frame.Comando3
+G2L["Comando3_13"] = Instance.new("TextButton", G2L["Frame_12"]);
+G2L["Comando3_13"]["TextWrapped"] = true;
+G2L["Comando3_13"]["BorderSizePixel"] = 0;
+G2L["Comando3_13"]["TextScaled"] = true;
+G2L["Comando3_13"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Comando3_13"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["Comando3_13"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Comando3_13"]["BackgroundTransparency"] = 1;
+G2L["Comando3_13"]["Size"] = UDim2.new(0, 522, 0, 14);
+G2L["Comando3_13"]["Text"] = [[;chat <player> <mensagem>]];
+G2L["Comando3_13"]["Name"] = [[Comando3]];
+G2L["Comando3_13"]["Position"] = UDim2.new(0, 454, 0, 12);
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.Content .Section1.Frame.Comando7
+G2L["Comando7_14"] = Instance.new("TextButton", G2L["Frame_12"]);
+G2L["Comando7_14"]["TextWrapped"] = true;
+G2L["Comando7_14"]["BorderSizePixel"] = 0;
+G2L["Comando7_14"]["TextScaled"] = true;
+G2L["Comando7_14"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Comando7_14"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["Comando7_14"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Comando7_14"]["BackgroundTransparency"] = 1;
+G2L["Comando7_14"]["Size"] = UDim2.new(0, 522, 0, 14);
+G2L["Comando7_14"]["Text"] = [[;fling <player>]];
+G2L["Comando7_14"]["Name"] = [[Comando7]];
+G2L["Comando7_14"]["Position"] = UDim2.new(0, 454, 0, 12);
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.Content .Section1.Frame.Comando2
+G2L["Comando2_15"] = Instance.new("TextButton", G2L["Frame_12"]);
+G2L["Comando2_15"]["TextWrapped"] = true;
+G2L["Comando2_15"]["BorderSizePixel"] = 0;
+G2L["Comando2_15"]["TextScaled"] = true;
+G2L["Comando2_15"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Comando2_15"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["Comando2_15"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Comando2_15"]["BackgroundTransparency"] = 1;
+G2L["Comando2_15"]["Size"] = UDim2.new(0, 522, 0, 14);
+G2L["Comando2_15"]["Text"] = [[;bring <player>]];
+G2L["Comando2_15"]["Name"] = [[Comando2]];
+G2L["Comando2_15"]["Position"] = UDim2.new(0, 454, 0, 12);
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.Content .Section1.Frame.Comando6
+G2L["Comando6_16"] = Instance.new("TextButton", G2L["Frame_12"]);
+G2L["Comando6_16"]["TextWrapped"] = true;
+G2L["Comando6_16"]["BorderSizePixel"] = 0;
+G2L["Comando6_16"]["TextScaled"] = true;
+G2L["Comando6_16"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Comando6_16"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["Comando6_16"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Comando6_16"]["BackgroundTransparency"] = 1;
+G2L["Comando6_16"]["Size"] = UDim2.new(0, 522, 0, 14);
+G2L["Comando6_16"]["Text"] = [[;freeze <player>]];
+G2L["Comando6_16"]["Name"] = [[Comando6]];
+G2L["Comando6_16"]["Position"] = UDim2.new(0, 454, 0, 12);
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.Content .Section1.Frame.Comando4
+G2L["Comando4_17"] = Instance.new("TextButton", G2L["Frame_12"]);
+G2L["Comando4_17"]["TextWrapped"] = true;
+G2L["Comando4_17"]["BorderSizePixel"] = 0;
+G2L["Comando4_17"]["TextScaled"] = true;
+G2L["Comando4_17"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Comando4_17"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["Comando4_17"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Comando4_17"]["BackgroundTransparency"] = 1;
+G2L["Comando4_17"]["Size"] = UDim2.new(0, 522, 0, 14);
+G2L["Comando4_17"]["Text"] = [[;kick <player>]];
+G2L["Comando4_17"]["Name"] = [[Comando4]];
+G2L["Comando4_17"]["Position"] = UDim2.new(0, 454, 0, 12);
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.Content .Section1.Frame.UICorner
+G2L["UICorner_18"] = Instance.new("UICorner", G2L["Frame_12"]);
+
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.Content .Section1.Frame.UIGradient
+G2L["UIGradient_19"] = Instance.new("UIGradient", G2L["Frame_12"]);
+G2L["UIGradient_19"]["Rotation"] = 90;
+G2L["UIGradient_19"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(51, 51, 51)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(51, 51, 51))};
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.Content .Section1.Frame.Comando5
+G2L["Comando5_1a"] = Instance.new("TextButton", G2L["Frame_12"]);
+G2L["Comando5_1a"]["TextWrapped"] = true;
+G2L["Comando5_1a"]["BorderSizePixel"] = 0;
+G2L["Comando5_1a"]["TextScaled"] = true;
+G2L["Comando5_1a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Comando5_1a"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["Comando5_1a"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Comando5_1a"]["BackgroundTransparency"] = 1;
+G2L["Comando5_1a"]["Size"] = UDim2.new(0, 522, 0, 14);
+G2L["Comando5_1a"]["Text"] = [[;kill <player>/;killplus <player>]];
+G2L["Comando5_1a"]["Name"] = [[Comando5]];
+G2L["Comando5_1a"]["Position"] = UDim2.new(0, 454, 0, 12);
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.Content .Section1.Frame.UIListLayout
+G2L["UIListLayout_1b"] = Instance.new("UIListLayout", G2L["Frame_12"]);
+
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.Content .Section1.Frame.Comando1
+G2L["Comando1_1c"] = Instance.new("TextButton", G2L["Frame_12"]);
+G2L["Comando1_1c"]["TextWrapped"] = true;
+G2L["Comando1_1c"]["BorderSizePixel"] = 0;
+G2L["Comando1_1c"]["TextScaled"] = true;
+G2L["Comando1_1c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Comando1_1c"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["Comando1_1c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Comando1_1c"]["BackgroundTransparency"] = 1;
+G2L["Comando1_1c"]["Size"] = UDim2.new(0, 522, 0, 14);
+G2L["Comando1_1c"]["Text"] = [[;verifique]];
+G2L["Comando1_1c"]["Name"] = [[Comando1]];
+G2L["Comando1_1c"]["Position"] = UDim2.new(0, 454, 0, 12);
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.UIDragDetector
+G2L["UIDragDetector_1d"] = Instance.new("UIDragDetector", G2L["Frame_2"]);
+
+
+
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.TopBar.Close.LocalScript
+local function C_6()
+	local script = G2L["LocalScript_6"];
+	
+	
+	local CloseBtn = script.Parent	
+	local Content = CloseBtn.Parent.Parent.Parent	
+	
+	CloseBtn.MouseButton1Click:Connect(function()	
+	    Content:Destroy()	
+	end)	
+end;
+task.spawn(C_6);
+-- Players.ronia_oys.PlayerGui.ScreenGui.Frame.TopBar.Minimize.LocalScript
+local function C_d()
+	local script = G2L["LocalScript_d"];
+	
+	
+	local MinimizeBtn = script.Parent	
+	local Content = MinimizeBtn.Parent.Parent.Content	
+	-- Minimize	
+	local Minimized = false	
+	MinimizeBtn.MouseButton1Click:Connect(function()	
+	    Minimized = not Minimized	
+	    local newSize = Minimized and UDim2.new(1,0,0,0) or UDim2.new(1,0,1,-36)	
+	    TweenService:Create(Content, TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size=newSize}):Play()	
+	end)	
+end;
+task.spawn(C_d);
+
+return G2L["ScreenGui_1"], require;
